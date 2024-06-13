@@ -113,7 +113,7 @@ function Contact() {
                             </li>
                             <li>
                                 <h3 className="text-xl text-gray-800 dark:text-gray-300 font-medium mb-1">Address</h3>
-                                <p className="text-xm text-gray-700 dark:text-gray-400">Chlef Algeria (Open to relocation)</p>
+                                <p className="text-xm text-gray-700 dark:text-gray-400">Chlef, Algeria (Open to relocation)</p>
                             </li>
                         </ul>
                     </div>

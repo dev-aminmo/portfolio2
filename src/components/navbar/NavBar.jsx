@@ -15,9 +15,9 @@ const Navbar = ({ theme, toggleTheme }) => {
 
     // Array containing navigation items
     const navItems = [
-        { id: 1, text: 'About', link: '/#about' },
-        { id: 2, text: 'Services', link: '/#services' },
-        { id: 3, text: 'Projects', link: '/#projects' },
+        { id: 1, text: 'About', link: '#about' },
+        { id: 2, text: 'Services', link: '#services' },
+        { id: 3, text: 'Projects', link: '#projects' },
     ];
 
     // useEffect(() => {
