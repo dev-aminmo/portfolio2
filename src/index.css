@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    .container {
+        @apply mx-auto px-20
+    }
+}
+
+.react-multi-carousel-track {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .react-multi-carousel-track {
+    height: 300px;
+}
+
+@media screen and (max-width: 576px) {
+    .react-multi-carousel-track {
+        height: 300px;
+    }
+    @layer {
+        .container {
+            @apply mx-auto px-5
+        }
+    }
+}
+.carousel__track {
+    display: none !important;
+}
