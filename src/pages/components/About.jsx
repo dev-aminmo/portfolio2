@@ -9,11 +9,9 @@ function About() {
                         About me
                     </h2>
                     <p className="text-xl text-gray-50 mb-4 text-center w-5/6 mx-auto leading-relaxed">
-                        Hi, I’m Mohammed Amin Mostefaoui. I’m a Mobile Developer located in Algeria. I have a serious passion for
-                        mobile development and software engineering in general. with an educational background in 💻 computer science.
-                        I’m a self-taught developer and I’m always looking for new challenges and to learn new technologies.
+                    I am a Mobile Developer based in Algeria with a deep passion for mobile development and software engineering. With a background in computer science, I have developed my skills as a self-taught developer. I am constantly seeking new challenges and opportunities to learn and master emerging technologies.
                     </p>
-                    <a href="https://docs.google.com/document/d/1RoT47ic6VLn_-yPZNhOHTTD92qDsIraqtZ_i5MED3r8/edit?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1N-y28HBRb2gXQHwe4DQJtfunc1njw8Mp/view?usp=sharing"
                         target="_blank"
                         className="block mx-auto text-center w-48 border-2 border-solid border-white px-8 py-2 text-white rounded-sm text-lg  focus:outline-none focus:ring-2 focus:ring-blue-300">My
                         resume
