@@ -63,7 +63,7 @@ function ProjectDetails() {
                                                 
                                                // className="object-cover h-300px w-auto  m-auto  transform duration-500 ease-in-out hover:scale-105"
                                                 className="object-cover h-[40vh] sm:h-[60vh] w-auto  m-auto  transform duration-500 ease-in-out hover:scale-105"
-                                                src={(project.imgsUrl[item].endsWith('.mp4'))?project.imgsUrl[item].replace('.mp4', '.png'):project.imgsUrl[item]}
+                                                src={(project.imgsUrl[item].endsWith('.mp4'))?project.imgsUrl[item].replace('.mp4', '.webp'):project.imgsUrl[item]}
                                             />
                                         </a>
                                     </div>

@@ -81,7 +81,7 @@ function Projects() {
                                                                         <img
                                                                             className="object-cover h-[40vh] w-auto  m-auto  transform duration-500 ease-in-out hover:scale-105"
                                                                           //  src={item.imgsUrl[project]}
-                                                                            src={(item.imgsUrl[project].endsWith('.mp4'))?item.imgsUrl[project].replace('.mp4', '.png'):item.imgsUrl[project]}
+                                                                            src={(item.imgsUrl[project].endsWith('.mp4'))?item.imgsUrl[project].replace('.mp4', '.webp'):item.imgsUrl[project]}
                                                                         />
                                                                     </a>
                                                                 </div>
