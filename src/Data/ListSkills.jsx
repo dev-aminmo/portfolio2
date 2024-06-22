@@ -31,10 +31,10 @@ export const ListSkills = {
         img: java,
         title: 'Java'
     },
-    skill14: {
-        img: kotlin,
-        title: 'Kotiln'
-    },
+    // skill14: {
+    //     img: kotlin,
+    //     title: 'Kotiln'
+    // },
     skill11: {
         img: firebase,
         title: 'Firebase'
@@ -64,7 +64,10 @@ export const ListSkills = {
         img: sql,
         title: 'SQL'
     },
-    
+      skill15: {
+        img: git,
+        title: 'Git'
+    },
     // skill13: {
     //     img: xcode,
     //     title: 'Xcode'

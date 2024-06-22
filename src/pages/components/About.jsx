@@ -11,7 +11,7 @@ function About() {
                     <p className="text-xl text-gray-50 mb-4 text-center w-5/6 mx-auto leading-relaxed">
                     I am a Mobile Developer based in Algeria with a deep passion for mobile development and software engineering. With a background in computer science, I have developed my skills as a self-taught developer. I am constantly seeking new challenges and opportunities to learn and master emerging technologies.
                     </p>
-                    <a href="https://drive.google.com/file/d/1N-y28HBRb2gXQHwe4DQJtfunc1njw8Mp/view?usp=sharing"
+                    <a href="https://drive.google.com/file/d/1oeEuHgLLagwj40NsUcXQcYFzHWG9FMd1/view?usp=sharing"
                         target="_blank"
                         className="block mx-auto text-center w-48 border-2 border-solid border-white px-8 py-2 text-white rounded-sm text-lg  focus:outline-none focus:ring-2 focus:ring-blue-300">My
                         resume
