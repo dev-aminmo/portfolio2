@@ -35,7 +35,7 @@ const Navbar = ({ theme, toggleTheme }) => {
             <div className='sticky  top-0 z-50  shadow-sm bg-[#fdfdfd] dark:bg-[#162336] w-full  min-h-[50px]' >
                 <div className='container  flex justify-between items-center  h-16 text-black'>
                     {/* Logo */}
-                    <a href="/" className='capitalize font-medium text-gray-900 dark:text-[#f2f2f2]'>Mohammed Mostefaoui</a>
+                    <a href="/portfolio/" className='capitalize font-medium text-gray-900 dark:text-[#f2f2f2]'>Mohammed Mostefaoui</a>
 
                     {/* Desktop Navigation */}
                     <ul className='hidden md:flex space-x-4 capitalize text-gray-700 dark:text-[#f2f2f2]'>
