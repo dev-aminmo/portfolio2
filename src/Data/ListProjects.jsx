@@ -195,11 +195,11 @@ export const ListProjects = [
         },
         bnts: {
 
-            bntGithub: {
-                link: 'https://github.com/MezianeKhalil/myBallot_app',
-                icon: <FaGithub/>
-            },
-            bntGithub: {
+            // bntGithub: {
+            //     link: 'https://github.com/MezianeKhalil/myBallot_app',
+            //     icon: <FaGithub/>
+            // },
+            bntGithub2: {
                 link: 'https://github.com/dev-aminmo/myballot-api',
                 icon: <FaGithub/>
             },
