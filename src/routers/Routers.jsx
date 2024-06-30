@@ -11,10 +11,10 @@ function Routers() {
         <>
             <Routes>
                 <Route element={<Layout />} >
-                    <Route path="/" element={<Home />} />
-                    <Route path="/project/:id" element={<ProjectDetails />} />
-                    <Route path="/other-project/:id" element={<OtherProjectDetails />} />
-                    <Route path="*" element={<NotFound />} />
+                    <Route path="/portfolio/" element={<Home />} />
+                    <Route path="/portfolio/project/:id" element={<ProjectDetails />} />
+                    <Route path="/portfolio/other-project/:id" element={<OtherProjectDetails />} />
+                    <Route path="/portfolio/*" element={<NotFound />} />
                 </Route>
             </Routes>
         </>
