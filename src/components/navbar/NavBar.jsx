@@ -15,9 +15,9 @@ const Navbar = ({ theme, toggleTheme }) => {
 
     // Array containing navigation items
     const navItems = [
-        { id: 1, text: 'About', link: '#about' },
-        { id: 2, text: 'Services', link: '#services' },
-        { id: 3, text: 'Projects', link: '#projects' },
+        { id: 1, text: 'About', link: '/portfolio/#about' },
+        { id: 2, text: 'Services', link: '/portfolio/#services' },
+        { id: 3, text: 'Projects', link: '/portfolio/#projects' },
     ];
 
     // useEffect(() => {
@@ -47,7 +47,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                             </li>
                         ))}
                         <li>
-                            <a href="#contact"
+                            <a href="/portfolio/#contact"
                                 className="bg-blue-700 py-2 px-6 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400 hover:bg-blue-800">contact</a>
                         </li>
                         <li>
@@ -88,7 +88,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                             </button>
                         </li>
                         <li onClick={handleNav} className='p-4  text-gray-700 dark:text-[#f2f2f2] rounded-xl m-2 cursor-pointer duration-300 hover:text-black'>
-                            <a href='#contact'>Contact</a>
+                            <a href='/portfolio/#contact'>Contact</a>
                         </li>
                     </ul>
                 </div>
